@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Finance on njspyx</title>
+    <link>http://localhost:1313/tags/finance/</link>
+    <description>Recent content in Finance on njspyx</description>
+    <generator>Hugo -- 0.128.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jun 2024 10:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SIF Alpha Competition</title>
+      <link>http://localhost:1313/projects/sif_alpha/</link>
+      <pubDate>Mon, 24 Jun 2024 10:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sif_alpha/</guid>
+      <description>Developed a trading strategy based on P/E and Markov Frontier.</description>
+    </item>
+  </channel>
+</rss>

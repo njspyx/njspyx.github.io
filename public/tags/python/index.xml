@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on njspyx</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on njspyx</description>
+    <generator>Hugo -- 0.128.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Jun 2024 10:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SIF Alpha Competition</title>
+      <link>http://localhost:1313/projects/sif_alpha/</link>
+      <pubDate>Mon, 24 Jun 2024 10:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sif_alpha/</guid>
+      <description>Developed a trading strategy based on P/E and Markov Frontier.</description>
+    </item>
+    <item>
+      <title>Brisbane (DirectoryGPT)</title>
+      <link>http://localhost:1313/projects/brisbane_gpt/</link>
+      <pubDate>Sun, 23 Jun 2024 10:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/brisbane_gpt/</guid>
+      <description>Created for Bitcamp 2023.</description>
+    </item>
+  </channel>
+</rss>

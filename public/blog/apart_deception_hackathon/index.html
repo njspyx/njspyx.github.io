@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Apart Research Deception Hackathon Recap | njspyx</title>
+<meta name="keywords" content="AI Safety, Hackathon, Research">
+<meta name="description" content="Overview Over the weekend, I completed my first &ldquo;research hackathon&rdquo; with Apart Research, a decentralized organization that hosts sprints and funds research teams working on important problems in AI safety. This sprint was focused on AI deception. As AI systems become more capable, the idea that they might lie or spread misinformation for their own reward signal becomes a realistic concern. Example scenarios include:
+An AI agent lying to stock investors to make money for its company.">
+<meta name="author" content="Neel Jay">
+<link rel="canonical" href="http://localhost:1313/blog/apart_deception_hackathon/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.0a6a51c6be0d358a16e819f9ed7eb90399b3fc8bdeae78358f36d52d3c6b6be4.css" integrity="sha256-CmpRxr4NNYoW6Bn57X65A5mz/Iverng1jzbVLTxra&#43;Q=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/%3Clink%20/%20abs%20url%3E">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/%3Clink%20/%20abs%20url%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/%3Clink%20/%20abs%20url%3E">
+<link rel="apple-touch-icon" href="http://localhost:1313/%3Clink%20/%20abs%20url%3E">
+<link rel="mask-icon" href="http://localhost:1313/%3Clink%20/%20abs%20url%3E">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/apart_deception_hackathon/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class=" dark" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="njspyx (Alt + H)">njspyx</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Apart Research Deception Hackathon Recap
+    </h1>
+    <div class="post-meta"><span title='2024-07-02 00:00:00 +0000 UTC'>July 2, 2024</span>&nbsp;·&nbsp;Neel Jay
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
+<p>Over the weekend, I completed my first &ldquo;research hackathon&rdquo; with <a href="https://www.apartresearch.com/"><!-- raw HTML omitted -->Apart Research</a>, a decentralized organization that hosts sprints and funds research teams working on important problems in AI safety. This sprint was focused on AI deception. As AI systems become more capable, the idea that they might lie or spread misinformation for their own reward signal becomes a realistic concern. Example scenarios include:</p>
+<ul>
+<li>An AI agent lying to stock investors to make money for its company.</li>
+<li>A model deceptively masking its harmful intentions by appearing aligned during safety training/eval.</li>
+</ul>
+<p>For the hackathon, I met my team online only a few hours before the start time. We essentially brainstormed, tested, and wrote-up our project in &lt;48 hours! Since the event was completely virtual and all of us lived in different time zones, collaboration was chaotic at times.</p>
+<p>Despite this, I&rsquo;m proud that we were able to put together a solid result. By the end, I had more appreciation for the ability to formulate experiments and tell coherent stories in research. It&rsquo;s not always about now technical your codebase is. I will definitely come to the next one with a better understanding of what a 2 day research project should look like.</p>
+<p>Our final write-up can be found here: <a href="https://www.apartresearch.com/project/evaluating-steering-methods-for-deceptive-behavior-control-in-llms">https://www.apartresearch.com/project/evaluating-steering-methods-for-deceptive-behavior-control-in-llms</a>.</p>
+<p>Our github repo (forked version by me) can be found here: <a href="https://github.com/njspyx/apart_hack_steering_vectors_deception">https://github.com/njspyx/apart_hack_steering_vectors_deception</a></p>
+<h2 id="future-directions">Future Directions<a hidden class="anchor" aria-hidden="true" href="#future-directions">#</a></h2>
+<p>While the hackathon is over, I intend to continue exploring the ideas in our paper. Some ideas I wish to explore are:</p>
+<ul>
+<li>Building an interactive UI to see steering vector projection values while talking to a Llama 7B model.</li>
+<li>Elaborating on the idea of using activations to guide models for deception dataset creation (inspired by <a href="https://www.alignmentforum.org/posts/iHmsJdxgMEWmAfNne/red-teaming-language-models-via-activation-engineering"><!-- raw HTML omitted -->this post</a>). Creating more diverse examples of deception by combining &ldquo;dishonesty&rdquo; vectors with other steering vectors may give us a more robust and generalizable dataset to work with.</li>
+</ul>
+<p><em>UPDATES COMING SOON&hellip;</em></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/ai-safety/">AI Safety</a></li>
+      <li><a href="http://localhost:1313/tags/hackathon/">Hackathon</a></li>
+      <li><a href="http://localhost:1313/tags/research/">Research</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="http://localhost:1313/">njspyx</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> 
+    </span> · 
+
+    <span>
+      <a href="https://github.com/njspyx/hugo-blog" rel="noopener noreferrer" target="_blank">Github</a> 
+  </span>
+
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script></body>
+
+</html>

@@ -1,0 +1,58 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: njspyx
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 3
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+
+params:
+  showTags: true
+  defaultTheme: "dark"
+  disableThemeToggle: false
+
+  profileMode:
+    enabled: true
+    title: "Neel Jay"
+    subtitle: "CS & Math undergrad student at University of Maryland"
+    imageUrl: "/images/profilfe.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: About
+        url: "/about"
+      - name: Projects
+        url: "/projects"
+      - name: Blog
+        url: "/blog"
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/neeljay/"
+    - name: github
+      url: "https://github.com/njspyx"
+    - name: email
+      url: "mailto:neeljaycs@gmail.com"
+
+  assets:
+    disableHLJS: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  customCSS:
+    - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
