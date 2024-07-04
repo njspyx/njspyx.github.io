@@ -1,7 +1,7 @@
 baseURL: https://njspyx.github.io/
-languageCode: en-us
+theme: "PaperMod"
 title: njspyx
-theme: ["PaperMod"]
+languageCode: "en-us"
 
 menu:
   main:
@@ -27,9 +27,9 @@ params:
     enabled: true
     title: "Neel Jay"
     subtitle: "CS & Math undergrad student at University of Maryland"
-    imageUrl: "/images/profilfe.jpg"
-    imageWidth: 120
-    imageHeight: 120
+    imageUrl: "/images/profile.jpg"
+    imageWidth: 220
+    imageHeight: 220
     buttons:
       - name: About
         url: "/about"
