@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hackathon on njspyx</title>
     <link>http://localhost:1313/tags/hackathon/</link>
     <description>Recent content in Hackathon on njspyx</description>
-    <generator>Hugo -- 0.128.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hackathon/index.xml" rel="self" type="application/rss+xml" />
@@ -13,8 +13,7 @@
       <link>http://localhost:1313/blog/apart_deception_hackathon/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/apart_deception_hackathon/</guid>
-      <description>Overview Over the weekend, I completed my first &amp;ldquo;research hackathon&amp;rdquo; with Apart Research, a decentralized organization that hosts sprints and funds research teams working on important problems in AI safety. This sprint was focused on AI deception. As AI systems become more capable, the idea that they might lie or spread misinformation for their own reward signal becomes a realistic concern. Example scenarios include:
-An AI agent lying to stock investors to make money for its company.</description>
+      <description>Overview Over the weekend, I completed my first &amp;ldquo;research hackathon&amp;rdquo; with Apart Research, a decentralized organization that hosts sprints and funds research teams working on important problems in AI safety. This sprint was focused on AI deception. As AI systems become more capable, the idea that they might lie or spread misinformation for their own reward signal becomes a realistic concern. Example scenarios include:&#xA;An AI agent lying to stock investors to make money for its company.</description>
     </item>
   </channel>
 </rss>

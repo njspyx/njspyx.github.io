@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>njspyx</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on njspyx</description>
-    <generator>Hugo -- 0.128.0</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -13,37 +13,35 @@
       <link>http://localhost:1313/blog/apart_deception_hackathon/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/apart_deception_hackathon/</guid>
-      <description>Overview Over the weekend, I completed my first &amp;ldquo;research hackathon&amp;rdquo; with Apart Research, a decentralized organization that hosts sprints and funds research teams working on important problems in AI safety. This sprint was focused on AI deception. As AI systems become more capable, the idea that they might lie or spread misinformation for their own reward signal becomes a realistic concern. Example scenarios include:
-An AI agent lying to stock investors to make money for its company.</description>
+      <description>Overview Over the weekend, I completed my first &amp;ldquo;research hackathon&amp;rdquo; with Apart Research, a decentralized organization that hosts sprints and funds research teams working on important problems in AI safety. This sprint was focused on AI deception. As AI systems become more capable, the idea that they might lie or spread misinformation for their own reward signal becomes a realistic concern. Example scenarios include:&#xA;An AI agent lying to stock investors to make money for its company.</description>
     </item>
     <item>
       <title>Maryland Manzar</title>
       <link>http://localhost:1313/projects/mdmanzar/</link>
       <pubDate>Tue, 25 Jun 2024 10:30:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/mdmanzar/</guid>
-      <description>Homepage of Maryland Manzar, a competitive Bollywood dance team.</description>
+      <description></description>
     </item>
     <item>
       <title>SIF Alpha Competition</title>
       <link>http://localhost:1313/projects/sif_alpha/</link>
       <pubDate>Mon, 24 Jun 2024 10:30:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/sif_alpha/</guid>
-      <description>Developed a trading strategy based on P/E and Markov Frontier.</description>
+      <description></description>
     </item>
     <item>
       <title>Brisbane (DirectoryGPT)</title>
       <link>http://localhost:1313/projects/brisbane_gpt/</link>
       <pubDate>Sun, 23 Jun 2024 10:30:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/brisbane_gpt/</guid>
-      <description>Created for Bitcamp 2023.</description>
+      <description></description>
     </item>
     <item>
       <title>Adversarial DPO for Backdoor Attacks</title>
       <link>http://localhost:1313/blog/adversarial_dpo_for_backdoors/</link>
       <pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/adversarial_dpo_for_backdoors/</guid>
-      <description>Overview NOTE: This is a project outline for my AISF mini capstone project. Work is still in progress.
-Anthropic&amp;rsquo;s bombshell paper, &amp;ldquo;Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training&amp;rdquo; showed that is was possible to train persistant backdoors into LLMs using chain-of-thought methods. These so called &amp;ldquo;sleeper agent&amp;rdquo; models survived different types of safety training, including: RL, supervised fine-tuning (SFT), and adversarial training. While these results are significant, it is unclear how generalizable they are, as the researchers only look at two very specific backdoors.</description>
+      <description>Overview NOTE: This is a project outline for my AISF mini capstone project. Work is still in progress.&#xA;Anthropic&amp;rsquo;s bombshell paper, &amp;ldquo;Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training&amp;rdquo; showed that is was possible to train persistant backdoors into LLMs using chain-of-thought methods. These so called &amp;ldquo;sleeper agent&amp;rdquo; models survived different types of safety training, including: RL, supervised fine-tuning (SFT), and adversarial training. While these results are significant, it is unclear how generalizable they are, as the researchers only look at two very specific backdoors.</description>
     </item>
     <item>
       <title>About Me</title>
