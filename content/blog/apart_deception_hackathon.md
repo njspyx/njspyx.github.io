@@ -28,4 +28,3 @@ While the hackathon is over, I intend to continue exploring the ideas in our pap
 - Building an interactive UI to see steering vector projection values while talking to a Llama 7B model.
 - Elaborating on the idea of using activations to guide models for deception dataset creation (inspired by [<u>this post](https://www.alignmentforum.org/posts/iHmsJdxgMEWmAfNne/red-teaming-language-models-via-activation-engineering)). Creating more diverse examples of deception by combining "dishonesty" vectors with other steering vectors may give us a more robust and generalizable dataset to work with.
 
-_UPDATES COMING SOON..._
